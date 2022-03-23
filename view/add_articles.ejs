@@ -1,0 +1,39 @@
+
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+      
+   <title>Knowledge about database</title>
+</head>
+<body>
+   <nav>
+      <div class="site-title">
+         <a href="/"><h1>Add_Article</h1></a>
+      </div>
+   </nav>
+   <form action="/article/add_articles" method="POST">
+      <div>
+         <label for="title">title</label>
+         <input type="text" id="title" name="title" required>
+      </div>
+     <br>
+      <div>
+         <label for="author">author</label>
+            <input type="text" id="author" name="author" required>
+      </div>
+      <br>
+      <div>
+         <label for="body">body</label>
+      <textarea id="body" name="body" required></textarea>
+
+      </div>
+      <br>
+      <input type="submit", value="submit">
+   </form>
+ 
+   
+</body>
+</html>
